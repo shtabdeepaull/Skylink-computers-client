@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "628a4d8a1bf1133eec27449c",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/Mpd7TS4/printer.png",
+    "price": 150,
+    "name": "Printer",
+    "description": "235 Lefferts Avenue, Sedley, Mississippi, 5076"
+  },
+  {
+    "_id": "628a4d8a46893d3c28bce0a7",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/VM5SJs7/mouse.png",
+    "price": 50,
+    "name": "Mouse",
+    "description": "668 Wyckoff Avenue, Glenbrook, Tennessee, 5953"
+  },
+  {
+    "_id": "628a4d8ac51881f5fe8c736e",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/kSHwwRZ/speaker.png",
+    "price": 100,
+    "name": "Speaker",
+    "description": "238 Revere Place, Beason, North Carolina, 8665"
+  },
+  {
+    "_id": "628a4d8a19425ef6b51580f2",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/mB3p2Dw/webcam.png",
+    "price": 100,
+    "name": "Webcam",
+    "description": "170 Berriman Street, Bendon, Washington, 6189"
+  },
+  {
+    "_id": "628a4d8a8dd8057669a705eb",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/wrCsmwD/monitor.png",
+    "price": 200,
+    "name": "Monitor",
+    "description": "533 Seton Place, Tioga, Virginia, 9991"
+  },
+  {
+    "_id": "628a4d8a8dd8057669a705eb",
+    "minimumOrderQuantity": "100",
+    "availableQuantity": "1000",
+    "image": "https://i.ibb.co/FqcKpj0/keyboard.png",
+    "price": 100,
+    "name": "Keyboard",
+    "description": "533 Seton Place, Tioga, Virginia, 9991"
+  }
+]
