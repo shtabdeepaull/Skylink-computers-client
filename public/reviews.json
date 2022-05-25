@@ -1,0 +1,21 @@
+[
+    {
+      "_id": "628e4318f291f0d8e330cc0e",
+      "picture": "https://i.ibb.co/q1T27Zx/person1.png",
+      "name": "Veronica",
+      "description": "154 Rockaway Avenue, Gorst, Virginia, 4643"
+    },
+    {
+      "_id": "628e431887edae396bd2a4df",
+      "picture": "https://i.ibb.co/yhRXVWC/person2.png",
+      "name": "Richard ",
+      "description": "905 Dahill Road, Tryon, Louisiana, 2076"
+    },
+    {
+      "_id": "628e43187e9cc2df50fabb8e",
+      "picture": "https://i.ibb.co/XFNCQFs/person3.png",
+      "name": "Alexa",
+      "description": "311 Strong Place, Guthrie, Mississippi, 9462"
+    }
+   
+  ]
