@@ -3,19 +3,22 @@
       "_id": "628e4318f291f0d8e330cc0e",
       "picture": "https://i.ibb.co/q1T27Zx/person1.png",
       "name": "Veronica",
-      "description": "154 Rockaway Avenue, Gorst, Virginia, 4643"
+      "rating": "3.00",
+      "description": "I use there keyboard with a windows PC AND AN android tablet. it doesn't have the apple function keys but it probably works like any USB keyboard. the trackball is very easy to use and effective."
     },
     {
       "_id": "628e431887edae396bd2a4df",
       "picture": "https://i.ibb.co/yhRXVWC/person2.png",
-      "name": "Richard ",
-      "description": "905 Dahill Road, Tryon, Louisiana, 2076"
+      "name": "Richard",
+      "rating": "5.00",
+      "description": "Absolutely nothing wrong with these monitors they are great especially for a office environment like I needed. Highly recommend. I bought three of them as you can see by the picture. There's nothing like having three monitors."
     },
     {
       "_id": "628e43187e9cc2df50fabb8e",
       "picture": "https://i.ibb.co/XFNCQFs/person3.png",
       "name": "Alexa",
-      "description": "311 Strong Place, Guthrie, Mississippi, 9462"
+      "rating": "4.00",
+      "description": "The sound of speaker quality is superb. The bass response is indeed superior to the 4 as well as the battery life.. This speaker far, far exceeded my expectations.  I highly recommend."
     }
    
   ]
