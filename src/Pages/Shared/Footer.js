@@ -22,8 +22,8 @@ const Footer = () => {
                 <div>
                     <span className="footer-title">Legal</span>
                     <a href="https://www.linkedin.com/in/shtabdee-paul-1a2604195/"  className="link link-hover"><i className="fa-brands text-secondary fa-2x fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/shtabdee/" className="link link-hover"><i class="fa-brands text-secondary fa-2x fa-instagram-square"></i></a>
-                    <a href="https://www.facebook.com/shtabdee.paul/" className="link link-hover"><i class="fa-brands text-secondary fa-2x fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/shtabdee/" className="link link-hover"><i  className="fa-brands text-secondary fa-2x fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com/shtabdee.paul/" className="link link-hover"><i  className="fa-brands text-secondary fa-2x fa-facebook-square"></i></a>
                 </div>
             </div>
             <div className='text-center m-4'>
