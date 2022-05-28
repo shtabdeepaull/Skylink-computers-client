@@ -30,7 +30,7 @@ const SignUp = () => {
     }
 
     if (gUser || user) {
-        console.log(gUser || user);
+       navigate('/');
     }
 
     const onSubmit = async data => {
