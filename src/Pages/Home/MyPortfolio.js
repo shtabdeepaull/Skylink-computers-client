@@ -16,15 +16,18 @@ const MyPortfolio = () => {
                     <p>Email:shtabdee30@gmail.com</p>
                     <p>Web Developer</p>
                     <div className='flex justify-center items-center m-4'>
-                    <p> <a href="https://www.linkedin.com/in/shtabdee-paul-1a2604195/"><i className="fa-brands m-2 fa-2x fa-linkedin"></i></a> </p>
-                    <p><a href="https://github.com/shtabdeepaull"><i className="fa-brands m-2 fa-2x fa-github"></i></a></p>
-                    <p><i className="fa-solid m-2 fa-2x fa-envelope"></i></p>
+                        <p> <a href="https://www.linkedin.com/in/shtabdee-paul-1a2604195/"><i className="fa-brands m-2 fa-2x fa-linkedin"></i></a> </p>
+                        <p><a href="https://github.com/shtabdeepaull"><i className="fa-brands m-2 fa-2x fa-github"></i></a></p>
+                        <p><i className="fa-solid m-2 fa-2x fa-envelope"></i></p>
                     </div>
                 </div>
                 <div>
-                    <h1 className="text-5xl font-bold">Box Office News!</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                    <h1 className="text-5xl text-secondary font-bold">Biography</h1>
+                    <p className="py-6">Hi, I’m Shtabdee Paul, I have a diploma in CS from Moulvibazar Polytechnic Institute and I'm currently learning full-stack Web development under Programming-Hero team.
+
+                        Previously, I worked at several projects in our inter-institutional programming championship where I made several programms to build small house automation tools and also building a e-commerce site for our internship project. Aside from work, I have developed several project from my own and those are listed on Github. <br />
+                        Although I'm a fresher in this field but I'm very much enthusiastic and determined towards my career and I believe that it will help me to achieve my goal.</p>
+
                 </div>
             </div>
         </div>

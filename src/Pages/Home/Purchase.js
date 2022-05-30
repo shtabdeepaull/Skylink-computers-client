@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {useAuthState} from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import { isDisabled } from '@testing-library/user-event/dist/utils';
+import { toast } from 'react-toastify';
 
 const Purchase = () => {
     const { partsId } = useParams();
@@ -18,6 +20,31 @@ const Purchase = () => {
 
     const handlePlaceOrder = event =>{
         event.preventDefault();
+        const AvailableQuantity= parts.availableQuantity;
+        const MinimumOrderQuantity= parts.minimumOrderQuantity;
+        const Quantity =event.target.orderQuantity.value;
+    
+        // const orderQuantity=(AvailableQuantity < Quantity || MinimumOrderQuantity > Quantity);
+        const order ={
+            parts:parts.name,
+            name:event.target.name.value,
+            user:event.target.email.value,
+            address:event.target.address.value,
+            Quantity:event.target.orderQuantity.value,
+            phone:event.target.phone.value,
+        }
+        fetch('http://localhost:5000/order',{
+            method: 'POST',
+            headers:{
+                'content-type':'application/json'
+            },
+            body: JSON.stringify(order)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            toast('Order Booked');
+        })
     }
 
     return (
@@ -41,8 +68,12 @@ const Purchase = () => {
                    <input type="email" name="email" disabled value={user?.email || ''} className="input  w-full max-w-xs" />
                    <input type="text" name="address" placeholder="Address" className="input w-full max-w-xs" />
                    <input type="number" name="phone" placeholder="Phone Number" className="input w-full max-w-xs" />
-                   <input type="number" placeholder="Order Quantity" className="input w-full max-w-xs" />
-                   <input type="submit" value="Order Now" className="btn btn-secondary w-full max-w-xs" />
+                   <input type="number" name="orderQuantity" placeholder="Order Quantity" className="input w-full max-w-xs" />
+                   <input 
+                //    disabled={}
+                    type="submit" 
+                    value="Order Now" 
+                    className="btn btn-secondary w-full max-w-xs" />
                    </form>
                 </div>
             </div>
