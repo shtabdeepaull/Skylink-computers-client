@@ -27,7 +27,10 @@ const MyPortfolio = () => {
 
                         Previously, I worked at several projects in our inter-institutional programming championship where I made several programms to build small house automation tools and also building a e-commerce site for our internship project. Aside from work, I have developed several project from my own and those are listed on Github. <br />
                         Although I'm a fresher in this field but I'm very much enthusiastic and determined towards my career and I believe that it will help me to achieve my goal.</p>
-
+                   <p className='text-2xl text-secondary font-bold'>Projects</p>
+                   <p><a href="https://shtabdeepaull.github.io/secound-assignment/">Project-1</a></p>
+                   <p><a href="https://shtabdeepaull.github.io/developer-portfolio/">Project-2</a></p>
+                   <p><a href="edulab-visa-consultancy-center.web.app">Project-3</a></p>
                 </div>
             </div>
         </div>

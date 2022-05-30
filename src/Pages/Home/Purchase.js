@@ -11,7 +11,7 @@ const Purchase = () => {
     const [user, loading, error] = useAuthState(auth);
 
     useEffect(() => {
-        const url = `http://localhost:5000/part/${partsId}`;
+        const url = `https://still-brook-69259.herokuapp.com/part/${partsId}`;
 
         fetch(url)
             .then(res => res.json())
@@ -33,7 +33,7 @@ const Purchase = () => {
             Quantity:event.target.orderQuantity.value,
             phone:event.target.phone.value,
         }
-        fetch('http://localhost:5000/order',{
+        fetch('https://still-brook-69259.herokuapp.com/order',{
             method: 'POST',
             headers:{
                 'content-type':'application/json'
